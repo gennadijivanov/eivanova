@@ -1,37 +1,431 @@
 <template>
-  <section class="container">
-    <div>
-      <h1 class="title">Меня зовут Елена Иванова</h1>
-      <h2 class="subtitle">и я - королева</h2>
+  <section>
+    <!-- Page Preloder -->
+    <div id="preloder">
+      <div class="loader"></div>
     </div>
+
+    <!-- Header section start -->
+    <!-- <header class="header-section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="site-logo">
+              <h2>
+                <a href="#">Civic</a>
+              </h2>
+              <p>Enhance your online presence</p>
+            </div>
+          </div>
+          <div class="col-md-8 text-md-right header-buttons">
+            <a href="#" class="site-btn">Download CV</a>
+            <a href="#" class="site-btn">Discover me</a>
+          </div>
+        </div>
+      </div>
+    </header>-->
+    <!-- Header section end -->
+
+    <!-- Hero section start -->
+    <section class="hero-section spad">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-10 offset-xl-1">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="hero-text">
+                  <h2>Елена Иванова</h2>
+                  <p>I’m a digital designer in love with photography, painting and discovering new worlds and cultures.</p>
+                </div>
+                <div class="hero-info">
+                  <h2>General Info</h2>
+                  <ul>
+                    <li>
+                      <span>Date of Birth</span>Aug 25, 1988
+                    </li>
+                    <li>
+                      <span>Address</span>Rosia Road 55, Gibraltar, UK
+                    </li>
+                    <li>
+                      <span>E-mail</span>mariawilliams@company.com
+                    </li>
+                    <li>
+                      <span>Phone</span>+43 5266 22 345
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <figure class="hero-image">
+                  <img src="img/hero.jpg" alt="5" />
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero section end -->
+
+    <!-- Social links section start -->
+    <div class="social-section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-10 offset-xl-1">
+            <div class="social-link-warp">
+              <div class="social-links">
+                <a href>
+                  <i class="fa fa-pinterest"></i>
+                </a>
+                <a href>
+                  <i class="fa fa-linkedin"></i>
+                </a>
+                <a href>
+                  <i class="fa fa-instagram"></i>
+                </a>
+                <a href>
+                  <i class="fa fa-facebook"></i>
+                </a>
+                <a href>
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </div>
+              <h2 class="hidden-md hidden-sm">My Social Profiles</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Social links section end -->
+
+    <!-- Resume section start -->
+    <section class="resume-section spad">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-7 offset-xl-2">
+            <div class="section-title">
+              <h2>Work Experience</h2>
+            </div>
+            <ul class="resume-list">
+              <li>
+                <h2>2016-Present</h2>
+                <h3>Web Design Company</h3>
+                <h4>Web Designer</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor orci ut sapien scelerisque viverra. Sed trist ique justo nec mauris efficitur, ut lacinia elit dapibus. In egestas elit in dap ibus laoreet. Duis magna libero, fermentum ut facilisis id, pulvinar eget tortor. Vestibulum pelle ntesque tincidunt lorem, vitae euismod felis porttitor sed.</p>
+              </li>
+              <li>
+                <h2>2014-2016</h2>
+                <h3>Web Design Company</h3>
+                <h4>Web Designer</h4>
+                <p>Sit amet, consectetur adipiscing elit. Sed porttitor orci ut sapien scelerisque viverra. Sed trist ique justo nec mauris efficitur, ut lacinia elit dapibus. In egestas elit in dap ibus laoreet. Duis magna libero, fermentum ut facilisis id, pulvinar eget tortor. Vestibulum pelle ntesque tincidunt lorem, vitae euismod felis porttitor sed.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Resume section end -->
+
+    <!-- Resume section start -->
+    <section class="resume-section with-bg spad">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-7 offset-xl-2">
+            <div class="section-title">
+              <h2>Education</h2>
+            </div>
+            <ul class="resume-list">
+              <li>
+                <h2>2008</h2>
+                <h3>Ui/Ux Diploma</h3>
+                <h4>Design College California</h4>
+                <p>Sit amet, consectetur adipiscing elit. Sed porttitor orci ut sapien scelerisque viverra. Sed trist ique justo nec mauris efficitur, ut lacinia elit dapibus. In egestas elit in dap ibus laoreet. Duis magna libero, fermentum ut facilisis id, pulvinar eget tortor. Vestibulum pelle ntesque tincidunt lorem, vitae euismod felis porttitor sed.</p>
+              </li>
+              <li>
+                <h2>2006</h2>
+                <h3>Web design Diploma</h3>
+                <h4>Design College California</h4>
+                <p>Sit amet, consectetur adipiscing elit. Sed porttitor orci ut sapien scelerisque viverra. Sed trist ique justo nec mauris efficitur, ut lacinia elit dapibus. In egestas elit in dap ibus laoreet. Duis magna libero, fermentum ut facilisis id, pulvinar eget tortor. Vestibulum pelle ntesque tincidunt lorem, vitae euismod felis porttitor sed.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Resume section end -->
+
+    <!-- Review section start -->
+    <section class="review-section spad pb-0">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-7 offset-xl-2">
+            <div class="section-title">
+              <h2>References</h2>
+            </div>
+            <div class="review-slider owl-carousel">
+              <div class="single-review">
+                <div class="qut">“</div>
+                <p>Sit amet, consectetur adipiscing elit. Sed porttitor orci ut sapien scelerisque viverra. Sed trist ique justo nec mauris efficitur, ut lacinia elit dapibus. In egestas elit in dap ibus laoreet. Duis magna libero, fermentum ut facilisis id, pulvinar eget tortor. Vestibulum pelle ntesque tincidunt lorem, vitae euismod felis porttitor sed.</p>
+                <h3>Robert G. Smith</h3>
+                <h4>Manager, Company</h4>
+              </div>
+              <div class="single-review">
+                <div class="qut">“</div>
+                <p>Sit amet, consectetur adipiscing elit. Sed porttitor orci ut sapien scelerisque viverra. Sed trist ique justo nec mauris efficitur, ut lacinia elit dapibus. In egestas elit in dap ibus laoreet. Duis magna libero, fermentum ut facilisis id, pulvinar eget tortor. Vestibulum pelle ntesque tincidunt lorem, vitae euismod felis porttitor sed.</p>
+                <h3>Robert G. Smith</h3>
+                <h4>Manager, Company</h4>
+              </div>
+              <div class="single-review">
+                <div class="qut">“</div>
+                <p>Sit amet, consectetur adipiscing elit. Sed porttitor orci ut sapien scelerisque viverra. Sed trist ique justo nec mauris efficitur, ut lacinia elit dapibus. In egestas elit in dap ibus laoreet. Duis magna libero, fermentum ut facilisis id, pulvinar eget tortor. Vestibulum pelle ntesque tincidunt lorem, vitae euismod felis porttitor sed.</p>
+                <h3>Robert G. Smith</h3>
+                <h4>Manager, Company</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Review section end -->
+
+    <!-- Portfolio section start -->
+    <section class="portfolio-section spad pb-0">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-4 col-md-8 offset-xl-2">
+            <div class="section-title">
+              <h2>Portfolio</h2>
+            </div>
+          </div>
+          <div class="col-md-4 text-md-right">
+            <a href="#" class="site-btn mb-5">See All Portfolio</a>
+          </div>
+        </div>
+        <div class="portfolio-warp">
+          <div class="row">
+            <div class="col-xl-3 col-lg-6 col-md-6">
+              <div class="portfolio-item">
+                <a
+                  href="img/portfolio/1.jpg"
+                  class="set-bg port-pic"
+                  data-setbg="img/portfolio/1.jpg"
+                ></a>
+                <h2>Brand Campaign</h2>
+                <p>Graphic design</p>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6">
+              <div class="portfolio-item">
+                <a
+                  href="img/portfolio/2.jpg"
+                  class="set-bg port-pic"
+                  data-setbg="img/portfolio/2.jpg"
+                ></a>
+                <h2>A Corporate Identity</h2>
+                <p>Graphic design</p>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6">
+              <div class="portfolio-item">
+                <a
+                  href="img/portfolio/3.jpg"
+                  class="set-bg port-pic"
+                  data-setbg="img/portfolio/3.jpg"
+                ></a>
+                <h2>Web Design Website</h2>
+                <p>Graphic design</p>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6">
+              <div class="portfolio-item">
+                <a
+                  href="img/portfolio/4.jpg"
+                  class="set-bg port-pic"
+                  data-setbg="img/portfolio/4.jpg"
+                ></a>
+                <h2>Logo design</h2>
+                <p>Graphic design</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio section end -->
+
+    <!-- Extra section start -->
+    <section class="extra-section spad pb-0">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-8 offset-xl-2">
+            <div class="section-title">
+              <h2>Extra Skills</h2>
+            </div>
+            <div class="row">
+              <div class="col-lg-3 col-md-6 pt-5">
+                <div class="fact-box trans">
+                  <div class="fact-content">
+                    <div class="circle-progress">
+                      <div id="progress1" class="prog-circle"></div>
+                      <div class="progress-info">
+                        <h2>75%</h2>
+                      </div>
+                      <div class="prog-title">
+                        <h3>Inspiration</h3>
+                        <p>Etiam nec odio vestibulum est.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 pt-5">
+                <div class="fact-box trans">
+                  <div class="fact-content">
+                    <div class="circle-progress">
+                      <div id="progress2" class="prog-circle"></div>
+                      <div class="progress-info">
+                        <h2>83%</h2>
+                      </div>
+                      <div class="prog-title">
+                        <h3>Inspiration</h3>
+                        <p>Etiam nec odio vestibulum est.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="fact-box">
+                  <div class="fact-content">
+                    <img src="img/icon/1-w.png" alt />
+                    <h2>14</h2>
+                    <p>Years of Experience</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="fact-box">
+                  <div class="fact-content">
+                    <img src="img/icon/2-w.png" alt />
+                    <h2>9</h2>
+                    <p>Awards Won</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Extra section end -->
+
+    <!-- Contact section start -->
+    <section class="contact-section spad">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-8 offset-xl-2">
+            <div class="section-title">
+              <h2>Contact Me</h2>
+            </div>
+            <form class="contact-form">
+              <div class="row">
+                <div class="col-md-6">
+                  <input type="text" placeholder="Name" />
+                </div>
+                <div class="col-md-6">
+                  <input type="text" placeholder="E-mail" />
+                </div>
+                <div class="col-md-12">
+                  <input type="text" placeholder="Subject" />
+                  <textarea placeholder="Message"></textarea>
+                </div>
+              </div>
+              <div class="text-md-right">
+                <button class="site-btn">Send message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact section end -->
+
+    <!-- Footer section start -->
+    <footer class="footer-section">
+      <div class="container text-center">
+        <div class="copyright">
+          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+          Copyright &copy;
+          <script>
+  document.write(new Date().getFullYear());
+          </script>All rights reserved | This template is made with
+          <i
+            class="fa fa-heart-o"
+            aria-hidden="true"
+          ></i> by
+          <a href="https://colorlib.com" target="_blank">Colorlib</a>
+          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        </div>
+      </div>
+    </footer>
+    <!-- Footer section end -->
+
+    <!--====== Javascripts & Jquery ======-->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/magnific-popup.min.js"></script>
+    <script src="js/circle-progress.min.js"></script>
+    <script src="js/main.js"></script>
   </section>
 </template>
 
+<script>
+export default {
+  asyncData(context) {
+    // called every time before loading the component
+    // as the name said, it can be async
+    // Also, the returned object will be merged with your data object
+    return { name: "World" };
+  },
+  fetch() {
+    // The `fetch` method is used to fill the store before rendering the page
+  },
+  head() {
+    return {
+      title: "Елена Иванова",
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: "Елена Иванова. Персональная страница",
+        },
+      ],
+      link: [
+        // { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+        // <!-- Favicon -->
+        { href: "img/favicon.ico", rel: "shortcut icon" },
+
+        // <!-- Google Fonts -->
+        {
+          href:
+            "https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700",
+          rel: "stylesheet",
+        },
+
+        // <!-- Stylesheets -->
+        { rel: "stylesheet", href: "css/bootstrap.min.css" },
+        { rel: "stylesheet", href: "css/font-awesome.min.css" },
+        { rel: "stylesheet", href: "css/flaticon.css" },
+        { rel: "stylesheet", href: "css/owl.carousel.css" },
+        { rel: "stylesheet", href: "css/magnific-popup.css" },
+        { rel: "stylesheet", href: "css/style.css" },
+      ],
+    };
+  },
+};
+</script>
+
 <style>
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
 </style>
 
