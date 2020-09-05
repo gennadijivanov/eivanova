@@ -14,3 +14,21 @@
     </div>
   </footer>
 </template>
+
+<style scoped>
+/*---------------------
+	Footer section
+-----------------------*/
+.footer-section {
+	background: #40424a;
+	padding: 20px 0;
+}
+
+.copyright {
+	padding-top: 5px;
+	font-size: 12px;
+	color: #838488;
+	line-height: normal;
+}
+
+</style>

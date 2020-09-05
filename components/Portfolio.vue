@@ -76,3 +76,75 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+/* Image Popup */
+.img-popup-warp .mfp-content,
+.img-popup-warp.mfp-ready.mfp-removing .mfp-content {
+	opacity: 0;
+	-webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transform: scale(0.8);
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.img-popup-warp.mfp-ready .mfp-content {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+
+
+/*---------------------
+	Portfolio section
+----------------------*/
+.portfolio-warp {
+	padding: 0 60px;
+}
+
+.portfolio-item h2 {
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+
+.portfolio-item p {
+	font-size: 14px;
+	margin-bottom: 0;
+}
+
+.portfolio-item .port-pic {
+	margin-bottom: 30px;
+	display: block;
+	height: 480px;
+	background: #333;
+	background-position: center center;
+	background-size: cover;
+	overflow: hidden;
+	position: relative;
+}
+
+.portfolio-item .port-pic:after {
+	position: absolute;
+	content: '';
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 0;
+	background: #000;
+	opacity: 0;
+	z-index: 2;
+	-webkit-transition: all 0.4s cubic-bezier(0.55, 0.09, 0.68, 0.53) 0s;
+	-o-transition: all 0.4s cubic-bezier(0.55, 0.09, 0.68, 0.53) 0s;
+	transition: all 0.4s cubic-bezier(0.55, 0.09, 0.68, 0.53) 0s;
+}
+
+.portfolio-item:hover .port-pic:after {
+	opacity: 0.8;
+	height: 100%;
+	top: 0;
+}
+
+</style>
