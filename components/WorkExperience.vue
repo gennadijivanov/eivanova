@@ -11,19 +11,12 @@ export default {
   },
   data() {
     return {
-      title: "Work Experience",
+      title: "Опыт работы",
       items: [
         {
-          period: "2016-Present",
-          workplace: "Web Design Company",
-          occupation: "Web Designer",
-          description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor orci ut sapien scelerisque viverra. Sed trist ique justo nec mauris efficitur, ut lacinia elit dapibus. In egestas elit in dap ibus laoreet. Duis magna libero, fermentum ut facilisis id, pulvinar eget tortor. Vestibulum pelle ntesque tincidunt lorem, vitae euismod felis porttitor sed.",
-        },
-        {
-          period: "2014-2016",
-          workplace: "Web Design Company",
-          occupation: "Web Designer",
+          period: "2016-Настоящее время",
+          workplace: "Частный агент",
+          occupation: "",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor orci ut sapien scelerisque viverra. Sed trist ique justo nec mauris efficitur, ut lacinia elit dapibus. In egestas elit in dap ibus laoreet. Duis magna libero, fermentum ut facilisis id, pulvinar eget tortor. Vestibulum pelle ntesque tincidunt lorem, vitae euismod felis porttitor sed.",
         },
