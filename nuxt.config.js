@@ -32,6 +32,19 @@ module.exports = {
         })
       }
     }
+  },
+  modules: [
+    '@nuxtjs/pwa',
+  ],
+  pwa: {
+    icon: false, // disables the icon module
+    meta: {
+      lang: 'ru'
+    },
+    manifest: {
+      name: 'Елена Иванова',
+      lang: 'ru',
+    }
   }
 }
 
