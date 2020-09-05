@@ -5,117 +5,15 @@
       <div class="loader"></div>
     </div>
 
-    <!-- Header section start -->
-    <!-- <header class="header-section">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="site-logo">
-              <h2>
-                <a href="#">Civic</a>
-              </h2>
-              <p>Enhance your online presence</p>
-            </div>
-          </div>
-          <div class="col-md-8 text-md-right header-buttons">
-            <a href="#" class="site-btn">Download CV</a>
-            <a href="#" class="site-btn">Discover me</a>
-          </div>
-        </div>
-      </div>
-    </header>-->
-    <!-- Header section end -->
+    <Header />
 
-    <!-- Hero section start -->
     <HeroSection />
-    <!-- Hero section end -->
 
-    <!-- Social links section start -->
-    <div class="social-section">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xl-10 offset-xl-1">
-            <div class="social-link-warp">
-              <div class="social-links">
-                <a href>
-                  <i class="fa fa-pinterest"></i>
-                </a>
-                <a href>
-                  <i class="fa fa-linkedin"></i>
-                </a>
-                <a href>
-                  <i class="fa fa-instagram"></i>
-                </a>
-                <a href>
-                  <i class="fa fa-facebook"></i>
-                </a>
-                <a href>
-                  <i class="fa fa-twitter"></i>
-                </a>
-              </div>
-              <h2 class="hidden-md hidden-sm">My Social Profiles</h2>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Social links section end -->
+    <SocialLinks />
 
-    <!-- Resume section start -->
-    <section class="resume-section spad">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xl-7 offset-xl-2">
-            <div class="section-title">
-              <h2>Work Experience</h2>
-            </div>
-            <ul class="resume-list">
-              <li>
-                <h2>2016-Present</h2>
-                <h3>Web Design Company</h3>
-                <h4>Web Designer</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor orci ut sapien scelerisque viverra. Sed trist ique justo nec mauris efficitur, ut lacinia elit dapibus. In egestas elit in dap ibus laoreet. Duis magna libero, fermentum ut facilisis id, pulvinar eget tortor. Vestibulum pelle ntesque tincidunt lorem, vitae euismod felis porttitor sed.</p>
-              </li>
-              <li>
-                <h2>2014-2016</h2>
-                <h3>Web Design Company</h3>
-                <h4>Web Designer</h4>
-                <p>Sit amet, consectetur adipiscing elit. Sed porttitor orci ut sapien scelerisque viverra. Sed trist ique justo nec mauris efficitur, ut lacinia elit dapibus. In egestas elit in dap ibus laoreet. Duis magna libero, fermentum ut facilisis id, pulvinar eget tortor. Vestibulum pelle ntesque tincidunt lorem, vitae euismod felis porttitor sed.</p>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Resume section end -->
+    <WorkExperience />
 
-    <!-- Resume section start -->
-    <section class="resume-section with-bg spad">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xl-7 offset-xl-2">
-            <div class="section-title">
-              <h2>Education</h2>
-            </div>
-            <ul class="resume-list">
-              <li>
-                <h2>2008</h2>
-                <h3>Ui/Ux Diploma</h3>
-                <h4>Design College California</h4>
-                <p>Sit amet, consectetur adipiscing elit. Sed porttitor orci ut sapien scelerisque viverra. Sed trist ique justo nec mauris efficitur, ut lacinia elit dapibus. In egestas elit in dap ibus laoreet. Duis magna libero, fermentum ut facilisis id, pulvinar eget tortor. Vestibulum pelle ntesque tincidunt lorem, vitae euismod felis porttitor sed.</p>
-              </li>
-              <li>
-                <h2>2006</h2>
-                <h3>Web design Diploma</h3>
-                <h4>Design College California</h4>
-                <p>Sit amet, consectetur adipiscing elit. Sed porttitor orci ut sapien scelerisque viverra. Sed trist ique justo nec mauris efficitur, ut lacinia elit dapibus. In egestas elit in dap ibus laoreet. Duis magna libero, fermentum ut facilisis id, pulvinar eget tortor. Vestibulum pelle ntesque tincidunt lorem, vitae euismod felis porttitor sed.</p>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Resume section end -->
+    <Education />
 
     <!-- Review section start -->
     <section class="review-section spad pb-0">
@@ -328,22 +226,21 @@
 </template>
 
 <script>
+import Education from "~/components/Education.vue";
+import Header from "~/components/Header.vue";
 import HeroSection from "~/components/HeroSection.vue";
 import Footer from "~/components/Footer.vue";
+import WorkExperience from "~/components/WorkExperience.vue";
+import SocialLinks from "~/components/SocialLinks.vue";
 
 export default {
   components: {
+    Education,
+    Header,
     HeroSection,
     Footer,
-  },
-  asyncData(context) {
-    // called every time before loading the component
-    // as the name said, it can be async
-    // Also, the returned object will be merged with your data object
-    return { name: "World" };
-  },
-  fetch() {
-    // The `fetch` method is used to fill the store before rendering the page
+    SocialLinks,
+    WorkExperience,
   },
   head() {
     return {
