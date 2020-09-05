@@ -67,3 +67,29 @@
       </div>
     </section>
 </template>
+
+<script>
+export default {
+  mounted () {
+    if($().circleProgress){
+
+      //Set progress circle 1
+      $("#progress1").circleProgress({
+        value: 1,
+        size: 175,
+        thickness: 2,
+        fill: "#40424a",
+        emptyFill: "rgba(0, 0, 0, 0)"
+      });
+      //Set progress circle 2
+      $("#progress2").circleProgress({
+        value: 1,
+        size: 175,
+        thickness: 2,
+        fill: "#40424a",
+        emptyFill: "rgba(0, 0, 0, 0)"
+      });
+    }
+  }
+}
+</script>

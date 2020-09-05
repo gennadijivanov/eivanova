@@ -29,5 +29,22 @@
           </div>
         </div>
       </div>
+
+    <script src="js/owl.carousel.min.js"></script>
+
     </section>
 </template>
+
+<script>
+export default {
+  mounted (){
+    $('.review-slider').owlCarousel({
+      loop: true,
+      nav: false,
+      dots: true,
+      items: 1,
+      autoplay: true
+    });
+  }
+}
+</script>

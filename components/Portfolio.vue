@@ -60,5 +60,19 @@
           </div>
         </div>
       </div>
+
+      <script src="js/magnific-popup.min.js"></script>
     </section>
 </template>
+
+<script>
+export default {
+  mounted () {
+    $('.portfolio-item .port-pic').magnificPopup({
+      type: 'image',
+      mainClass: 'img-popup-warp',
+      removalDelay: 500,
+    });
+  }
+}
+</script>
