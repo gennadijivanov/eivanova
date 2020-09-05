@@ -7,22 +7,22 @@
             <div class="col-lg-6">
               <div class="hero-text">
                 <h2>Елена Иванова</h2>
-                <p>I’m a digital designer in love with photography, painting and discovering new worlds and cultures.</p>
+                <p>Я - риелтор с живым и пытливым умом. Очень умная, красивая и коммуникабельная. И люблю котиков.</p>
               </div>
               <div class="hero-info">
-                <h2>General Info</h2>
+                <h2>Общая информация</h2>
                 <ul>
                   <li>
-                    <span>Date of Birth</span>Aug 25, 1988
+                    <span>Дата рождения</span>24 августа 1982
                   </li>
                   <li>
-                    <span>Address</span>Rosia Road 55, Gibraltar, UK
+                    <span>Адрес</span>Москва
                   </li>
                   <li>
-                    <span>E-mail</span>mariawilliams@company.com
+                    <span>E-mail</span>shee@bk.ru
                   </li>
                   <li>
-                    <span>Phone</span>+43 5266 22 345
+                    <span>Телефон</span>+7(926)622-48-22
                   </li>
                 </ul>
               </div>
