@@ -147,4 +147,52 @@ export default {
 	top: 0;
 }
 
+@media only screen and (max-width: 1366px) and (min-width: 1200px) {
+	.portfolio-item .port-pic {
+		height: 310px;
+	}
+}
+
+/* Medium screen : 992px. */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.portfolio-warp {
+		padding: 0;
+	}
+
+	.portfolio-item .port-pic {
+		height: 310px;
+	}
+	.portfolio-item {
+		margin-bottom: 30px;
+	}
+}
+
+/* Tablet :768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.portfolio-warp {
+		padding: 0;
+	}
+	.portfolio-item {
+		margin-bottom: 30px;
+	}
+}
+
+/* Large Mobile :480px. */
+@media only screen and (max-width: 767px) {
+	.portfolio-warp {
+		padding: 0;
+	}
+	.portfolio-item {
+		margin-bottom: 30px;
+	}
+}
+
+/* small Mobile :320px. */
+@media only screen and (max-width: 479px) {
+	.portfolio-item {
+		margin-bottom: 30px;
+	}
+}
+
+
 </style>

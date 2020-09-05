@@ -86,4 +86,21 @@ export default {
 	margin-bottom: 0;
 }
 
+/* Large Mobile :480px. */
+@media only screen and (max-width: 767px) {
+	.resume-list {
+		margin-left: 0;
+		padding-left: 0;
+		border-left: none;
+	}
+}
+
+/* small Mobile :320px. */
+@media only screen and (max-width: 479px) {
+	.resume-list h2 {
+		font-size: 50px;
+	}
+}
+
+
 </style>

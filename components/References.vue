@@ -97,4 +97,22 @@ export default {
 	font-size: 16px;
 }
 
+/* Large Mobile :480px. */
+@media only screen and (max-width: 767px) {
+	.review-slider {
+		padding-left: 0;
+	}
+	.review-slider .owl-dots {
+		position: relative;
+		left: 0;
+		top: 70px;
+	}
+	.review-slider .owl-dots .owl-dot {
+		display: inline-block;
+		margin-right: 15px;
+	}
+}
+
+
+
 </style>

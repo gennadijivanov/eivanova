@@ -172,4 +172,12 @@ export default {
 	color: #fff;
 	margin-bottom: 0;
 }
+
+/* Large Mobile :480px. */
+@media only screen and (max-width: 767px) {
+	.fact-box {
+		margin-bottom: 30px;
+	}
+}
+
 </style>

@@ -83,5 +83,37 @@
 	background: #cbcbcb;
 }
 
+/* Tablet :768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.hidden-md {
+		display: none !important;
+	}
+	.social-section .social-links {
+		display: block;
+		text-align: center;
+	}
+	.social-link-warp:after {
+		display: none;
+	}
+}
+
+/* Large Mobile :480px. */
+@media only screen and (max-width: 767px) {
+	.hidden-md {
+		display: none !important;
+	}
+	.social-section .social-links {
+		display: block;
+		text-align: center;
+	}
+}
+
+/* small Mobile :320px. */
+@media only screen and (max-width: 479px) {
+	.social-section .social-links a {
+		margin-right: 30px;
+	}
+}
+
 
 </style>

@@ -45,4 +45,12 @@
 .header-buttons a {
 	margin-top: 15px;
 }
+
+	/* Large Mobile :480px. */
+@media only screen and (max-width: 767px) {
+	.header-section {
+		padding: 50px 0;
+	}
+}
+
 </style>
