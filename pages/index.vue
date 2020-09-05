@@ -27,44 +27,7 @@
     <!-- Header section end -->
 
     <!-- Hero section start -->
-    <section class="hero-section spad">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xl-10 offset-xl-1">
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="hero-text">
-                  <h2>Елена Иванова</h2>
-                  <p>I’m a digital designer in love with photography, painting and discovering new worlds and cultures.</p>
-                </div>
-                <div class="hero-info">
-                  <h2>General Info</h2>
-                  <ul>
-                    <li>
-                      <span>Date of Birth</span>Aug 25, 1988
-                    </li>
-                    <li>
-                      <span>Address</span>Rosia Road 55, Gibraltar, UK
-                    </li>
-                    <li>
-                      <span>E-mail</span>mariawilliams@company.com
-                    </li>
-                    <li>
-                      <span>Phone</span>+43 5266 22 345
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <figure class="hero-image">
-                  <img src="img/hero.jpg" alt="5" />
-                </figure>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <HeroSection />
     <!-- Hero section end -->
 
     <!-- Social links section start -->
@@ -351,23 +314,7 @@
     <!-- Contact section end -->
 
     <!-- Footer section start -->
-    <footer class="footer-section">
-      <div class="container text-center">
-        <div class="copyright">
-          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-          Copyright &copy;
-          <script>
-  document.write(new Date().getFullYear());
-          </script>All rights reserved | This template is made with
-          <i
-            class="fa fa-heart-o"
-            aria-hidden="true"
-          ></i> by
-          <a href="https://colorlib.com" target="_blank">Colorlib</a>
-          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-        </div>
-      </div>
-    </footer>
+    <Footer />
     <!-- Footer section end -->
 
     <!--====== Javascripts & Jquery ======-->
@@ -381,7 +328,14 @@
 </template>
 
 <script>
+import HeroSection from "~/components/HeroSection.vue";
+import Footer from "~/components/Footer.vue";
+
 export default {
+  components: {
+    HeroSection,
+    Footer,
+  },
   asyncData(context) {
     // called every time before loading the component
     // as the name said, it can be async
@@ -402,10 +356,6 @@ export default {
         },
       ],
       link: [
-        // { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
-        // <!-- Favicon -->
-        { href: "img/favicon.ico", rel: "shortcut icon" },
-
         // <!-- Google Fonts -->
         {
           href:
