@@ -1,9 +1,7 @@
 <template>
   <section>
     <!-- Page Preloder -->
-    <div id="preloder">
-      <div class="loader"></div>
-    </div>
+    <Loader />
 
     <Header />
 
@@ -42,6 +40,7 @@ import Extras from "~/components/Extras.vue";
 import Footer from "~/components/Footer.vue";
 import Header from "~/components/Header.vue";
 import HeroSection from "~/components/HeroSection.vue";
+import Loader from "~/components/Loader.vue";
 import Portfolio from "~/components/Portfolio.vue";
 import References from "~/components/References.vue";
 import SocialLinks from "~/components/SocialLinks.vue";
@@ -55,6 +54,7 @@ export default {
     Footer,
     Header,
     HeroSection,
+    Loader,
     Portfolio,
     References,
     SocialLinks,
