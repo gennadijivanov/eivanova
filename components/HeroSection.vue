@@ -1,42 +1,33 @@
-<template>
-  <section class="hero-section spad">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xl-10 offset-xl-1">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="hero-text">
-                <h2>Елена Иванова</h2>
-                <p>Я - риелтор с живым и пытливым умом. Очень умная, красивая и коммуникабельная. И люблю котиков.</p>
-              </div>
-              <div class="hero-info">
-                <h2>Общая информация</h2>
-                <ul>
-                  <li>
-                    <span>Дата рождения</span>24 августа 1982
-                  </li>
-                  <li>
-                    <span>Адрес</span>Москва
-                  </li>
-                  <li>
-                    <span>E-mail</span>shee@bk.ru
-                  </li>
-                  <li>
-                    <span>Телефон</span>+7(926)622-48-22
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <figure class="hero-image">
-                <img src="img/hero.jpg" alt="5" />
-              </figure>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+<template lang="pug">
+section.hero-section.spad
+  .container-fluid
+    .row
+      .col-xl-10.offset-xl-1
+        .row
+          .col-lg-6
+            .hero-text
+              h2 Елена Иванова
+              p
+                | Я - риелтор с живым и пытливым умом. Очень умная, красивая и коммуникабельная. И люблю котиков.
+
+            .hero-info
+              h2 Общая информация
+              ul
+                li
+                  span Дата рождения
+                  | 24 августа 1982
+                li
+                  span Адрес
+                  | Москва
+                li
+                  span E-mail
+                  | shee@bk.ru
+                li
+                  span Телефон
+                  | +7(926)622-48-22
+          .col-lg-6
+            figure.hero-image
+              img(src='img/hero.jpg' alt='5')
 </template>
 
 <style scoped>
