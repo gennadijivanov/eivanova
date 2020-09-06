@@ -1,23 +1,15 @@
-  <!-- <header class="header-section">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="site-logo">
-              <h2>
-                <a href="#">Civic</a>
-              </h2>
-              <p>Enhance your online presence</p>
-            </div>
-          </div>
-          <div class="col-md-8 text-md-right header-buttons">
-            <a href="#" class="site-btn">Download CV</a>
-            <a href="#" class="site-btn">Discover me</a>
-          </div>
-        </div>
-      </div>
-  </header>-->
-<template>
-  <div></div>
+<template lang="pug">
+header.header-section
+  .container-fluid
+    .row
+      .col-md-4
+        //- .site-logo
+        //-   h2
+        //-     a(href="#") Civic
+        //-   p Enhance your online presence
+      .col-md-8.text-md-right.header-buttons
+        a.site-btn(href="#") Скачать резюме
+        a.site-btn(href="#") Напишите мне
 </template>
 
 <style scoped>
