@@ -1,34 +1,32 @@
-<template>
-  <section>
-    <!-- Page Preloder -->
-    <Loader />
+<template lang="pug">
+  section
+    Loader/
 
-    <Header />
+    Header/
 
-    <HeroSection />
+    HeroSection/
 
-    <SocialLinks />
+    SocialLinks/
 
-    <WorkExperience />
+    WorkExperience/
 
-    <Education />
+    Education/
 
-    <!-- <References /> -->
+    //- !-- References/> --
 
-    <!-- <Portfolio /> -->
+    //- !-- Portfolio/> --
 
-    <Extras />
+    Extras/
 
-    <!-- <ContactForm /> -->
+    //- !-- ContactForm/> --
 
-    <Footer />
+    Footer/
 
-    <!--====== Javascripts & Jquery ======-->
-    <script src="js/jquery-2.1.4.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/circle-progress.min.js"></script>
-    <script src="js/main.js"></script>
-  </section>
+    //- !--====== Javascripts & Jquery ======--
+    script(src="js/jquery-2.1.4.min.js")
+    script(src="js/bootstrap.min.js")
+    script(src="js/circle-progress.min.js")
+    script(src="js/main.js")
 </template>
 
 <script>
