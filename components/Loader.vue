@@ -1,7 +1,6 @@
-<template>
-  <div id="preloder">
-      <div class="loader"></div>
-    </div>
+<template lang="pug">
+.fader
+  .loader
 </template>
 
 <script>
@@ -9,15 +8,15 @@ export default {
   mounted() {
     $(window).on('load', function() {
       $(".loader").fadeOut();
-      $("#preloder").fadeOut("slow");
+      $(".fader").fadeOut("slow");
     });
   }
 }
 </script>
 
-<style>
+<style scoped>
 /* Preloder */
-#preloder {
+.fader {
 	position: fixed;
 	width: 100%;
 	height: 100%;
